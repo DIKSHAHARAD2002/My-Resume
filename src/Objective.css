@@ -1,0 +1,58 @@
+
+.objective-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(120deg, #2e2e2e, #191919);
+  color: white;
+ 
+}
+
+.objective-content {
+  text-align: center;
+  max-width: 600px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
+.name-box {
+  border: 2px solid #e91e63;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.name-box h1 {
+  margin: 0;
+  color: #e91e63;
+  font-size: 2.5rem;
+}
+
+.job-title {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #ddd;
+}
+
+.get-started-button {
+  background-color: transparent;
+  border: 2px solid #e91e63;
+  color: #e91e63;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.get-started-button:hover {
+  background-color: #e91e63;
+  color: white;
+}
